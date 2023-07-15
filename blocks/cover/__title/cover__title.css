@@ -1,0 +1,25 @@
+.cover__title {
+  max-width: 553px; /*чуть меньше, чем в макете для правильного переноса второй строки "на собаках"*/
+  font-family: Inter, sans-serif;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+}
+
+@media screen and (max-width:500px) {
+  .cover__title {
+    max-width: 240px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .cover__title {
+    max-width: 240px; /*чуть меньше, чем в макете для правильного переноса второй строки "на собаках"*/
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

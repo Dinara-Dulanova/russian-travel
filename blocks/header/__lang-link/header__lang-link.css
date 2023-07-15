@@ -1,0 +1,24 @@
+.header__lang-link {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.16;
+  color:#FFFFFF;
+  max-width: 28px;
+  column-gap: 18px;
+  align-self: flex-end;
+}
+
+.header__lang-link:last-child {
+  text-decoration: none;  
+}
+
+@media screen and (max-width:320px) {
+  .header__lang-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.1;
+    max-width: 22px;
+    column-gap: 18px;
+  }
+}

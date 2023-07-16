@@ -1,5 +1,4 @@
 .header__lang-links {
-  max-width: 74px;
   display: flex;
   justify-content: space-between;
   column-gap: 18px;

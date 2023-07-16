@@ -24,7 +24,6 @@
   .footer {
     margin: 64px auto 0;
     max-width: calc(100% - 32px);
-    display: flex;
     flex-direction: column;
     justify-content:flex-start;
     align-items: flex-start;

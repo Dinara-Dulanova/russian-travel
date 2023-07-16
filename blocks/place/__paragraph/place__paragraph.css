@@ -4,21 +4,19 @@
   font-weight: 400;
   line-height: 29px;
   letter-spacing: 0em;
-  padding: 0;
+  padding: 0 0 26px;
   margin: 0;
   color: #FFFFFF;
 }
 
-.place__paragraph:first-child{
-  padding-bottom: 26px;
+.place__paragraph:last-child{
+  padding-bottom: 0;
 }
 
 @media screen and (max-width:768px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 26px;
-  }
-  .place__paragraph:first-child{
-    padding-bottom: 25px;
+    padding: 0 0 25px;
   }
 }

@@ -18,7 +18,6 @@
 
 @media screen and (max-width:320px) {
   .cover__title {
-    max-width: 240px; /*чуть меньше, чем в макете для правильного переноса второй строки "на собаках"*/
     font-size: 32px;
     line-height: 35px;
   }

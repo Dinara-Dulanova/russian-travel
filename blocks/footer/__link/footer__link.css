@@ -8,6 +8,11 @@
   letter-spacing: 0em;
 }
 
+.footer__link:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
 @media screen and (max-width:650px) {
   .footer__link {
     font-size: 24px;

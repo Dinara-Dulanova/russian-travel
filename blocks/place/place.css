@@ -5,6 +5,9 @@
   margin-top: 80px;
 }
 
+.place:first-child {
+  margin-top: 0;
+}
 @media screen and (max-width:1024px) {
   .place {
     grid-template-columns: fit-content(440px) minmax(min-content, max-content);
